@@ -46,7 +46,7 @@
                     <div class="article">
                        <?php
                         $curl_handle = curl_init();
-                        curl_setopt($curl_handle, CURLOPT_URL, "http://taaadka2-7118a61a525b.herokuapp.com/hw6/company-users.php");
+                        curl_setopt($curl_handle, CURLOPT_URL, "http://rutikssangle.com/hw6/company-users.php");
                         curl_setopt($curl_handle, CURLOPT_HEADER, 0);
                         curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, true);
                         $contents = curl_exec($curl_handle);
