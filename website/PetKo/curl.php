@@ -47,7 +47,7 @@
                     <div class="article">
                        <?php
                         $curl_handle = curl_init();
-                        curl_setopt($curl_handle, CURLOPT_URL, "https://taaadka2-7118a61a525b.herokuapp.com/PetKo/company-users.php");
+                        curl_setopt($curl_handle, CURLOPT_URL, "https://taaadka2-7118a61a525b.herokuapp.com/website/PetKo/company-users.php");
                         curl_setopt($curl_handle, CURLOPT_HEADER, 0);
                         curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, true);
                         $contents = curl_exec($curl_handle);
