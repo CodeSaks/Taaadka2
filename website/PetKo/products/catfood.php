@@ -20,7 +20,7 @@
                     $cookie_value = implode(",", $page_urls);
                     
                     // Set the new cookie value
-                    setcookie($cookie_name, $cookie_value, $cookie_expiration, "/hw4");
+                    setcookie($cookie_name, $cookie_value, $cookie_expiration, "../");
                     ?>
 
 <!DOCTYPE html>
@@ -30,8 +30,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
     
 </head>
@@ -45,12 +45,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -72,11 +72,11 @@
                     <div class="article">
                     
                         <div class="card">
-                            <img src="/images/catfood.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/catfood.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Meow Mix Cat Food</h1>
                             <p class="price">$19.99</p>
                             <p>Meow Mix Cat Food is a high-quality cat food that is made with real meat and fish, and is packed with essential nutrients and vitamins that your cat needs to stay healthy and happy. It is also rich in flavor, making it a delicious and satisfying meal for your cat.</p>
-                            <p><button onclick="window.location.href='/products/catfood.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/catfood.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

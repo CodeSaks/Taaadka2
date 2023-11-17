@@ -24,11 +24,10 @@
                         <li><a href="products.html">Products/Services</a></li>
                         <li><a href="news.html">News</a></li>
                         <li><a href="contacts.php">Contact</a></li>
-                      	<li><a href="users.html">Users</a></li>
-                      <li><a href="curl.php">CURL</a></li>
+                      <li><a href="users.html">Users</a></li>
+<li><a href="curl.php">CURL</a></li>
 
                         <li><a href="admin.html">Admin</a></li>
-
                     </ul>
                 </div>
                 <div class="clr"></div>
@@ -36,7 +35,7 @@
         </header>
         <div class="feature">
             <div class="feature-inner">
-                <h1>About Us</h1>
+                <h1>CURL</h1>
             </div>
         </div>
 
@@ -46,44 +45,30 @@
 
                 <main id="contentbar">
                     <div class="article">
+                       <?php
+                        $curl_handle = curl_init();
+                        curl_setopt($curl_handle, CURLOPT_URL, "https://taaadka2-7118a61a525b.herokuapp.com/PetKo/company-users.php");
+                        curl_setopt($curl_handle, CURLOPT_HEADER, 0);
+                        curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, true);
+                        $contents = curl_exec($curl_handle);
+                        curl_close($curl_handle);
 
 
-                        At our pet shop, we are passionate about providing the best possible care for pets. We
-                        understand the joy and love that pets bring to our lives and are committed to ensuring that they
-                        receive the best care possible. Our team of dedicated professionals is committed to providing
-                        you with the best customer service and support.
+                        $users = preg_split('/<br[^>]*>/i', $contents);
 
-                        We offer a wide range of high-quality products to cater to the needs of your pet. Our products
-                        range from pet food, toys, accessories, and health care products, all designed to cater to the
-                        unique needs of different pets. We carefully select our products from reputable and reliable
-                        manufacturers to ensure that our customers receive only the best quality.
 
-                        We also believe in providing pet owners with the right information and resources to make
-                        informed decisions about their pet's health and well-being. We offer expert advice and helpful
-                        resources on our website, including articles and blogs on pet care, nutrition, and behavior.
-
-                        Our commitment to excellence is reflected in our easy-to-use website, secure payment options,
-                        and fast delivery. We pride ourselves on providing a hassle-free shopping experience for our
-                        customers.
-
-                        At our pet shop, we don't just sell products, we provide a comprehensive service to help you
-                        care for your pet. Thank you for choosing us as your trusted pet shop, and we look forward to
-                        serving you and your furry friend.
+                        foreach ($users as $user) {
+                            echo "<tr>";
+                            echo "<td>";
+                            echo $user;
+                            echo "</td>";
+                            echo "</tr>";
+                          	echo "</br>";
+                        }
+                        ?>
                     </div>
                 </main>
 
-                <!-- <nav id="sidebar">
-                    <div class="widget">
-                        <h3>Left heading</h3>
-                        <ul>
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                            <li><a href="#">Link 4</a></li>
-                            <li><a href="#">Link 5</a></li>
-                        </ul>
-                    </div>
-                </nav> -->
 
                 <div class="clr"></div>
             </div>

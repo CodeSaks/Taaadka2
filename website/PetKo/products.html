@@ -6,8 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
     <link rel="stylesheet" href="index.css">
-
-
+    <link rel="stylesheet" href="products.css">
 </head>
 
 <body>
@@ -24,7 +23,10 @@
                         <li><a href="products.html">Products/Services</a></li>
                         <li><a href="news.html">News</a></li>
                         <li><a href="contacts.php">Contact</a></li>
+                        <li><a href="users.html">Users</a></li>
+                        <li><a href="curl.php">CURL</a></li>
                         <li><a href="admin.html">Admin</a></li>
+
                     </ul>
                 </div>
                 <div class="clr"></div>
@@ -39,56 +41,96 @@
 
         <div id="content">
             <div id="content-inner">
-
+                
                 <main id="contentbar">
                     <div class="article">
-                        <h3>Premium Pet Food:</h3>
-                        <!-- We understand the importance of a well-balanced diet for your pet's health and well-being.
-                        That's why we offer a wide range of premium pet food, made with high-quality ingredients and
-                        free from harmful additives. Our range includes dry and wet food options for pets of all ages,
-                        sizes, and dietary requirements. -->
-                        Premium pet food is the gold standard in pet nutrition. Crafted with the finest ingredients and formulated to meet the specific dietary needs of your beloved pets, premium pet food is a testament to our commitment to their well-being. Packed with essential nutrients and free from fillers and artificial additives, it not only supports their overall health but also makes mealtime an enjoyable experience. With premium pet food, you can be confident that you're providing the very best for your furry family members, ensuring they thrive and flourish each day. Choose premium pet food because your pets deserve nothing less.
+                       
+                        <div class="card">
+                            <img src="images/catlitter.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Purrfect Paws Cat Litter</h1>
+                            <p class="price">$19.99</p>
+                            <p>A cat litter made of high-quality and natural materials, that is easy to clean and provides maximum odor control.</p>
+                            <p><button onclick="window.location.href='products/catlitter.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/dogshampoo.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Woofy Wash Dog Shampoo</h1>
+                            <p class="price">$19.99</p>
+                            <p>A gentle and effective dog shampoo that cleans and nourishes your dog's coat, leaving it shiny and smelling fresh.</p>
+                            <p><button onclick="window.location.href='products/dogshampoo.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/petbed.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Cozy Comfy Pet Bed</h1>
+                            <p class="price">$19.99</p>
+                            <p>A comfortable and cozy pet bed that provides your pet with a soft and supportive place to rest and sleep.</p>
+                            <p><button onclick="window.location.href='products/petbed.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/dogbuscuits.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Tasty Treats Dog Biscuits</h1>
+                            <p class="price">$19.99</p>
+                            <p>A delicious and healthy dog treat that is made with natural ingredients and is perfect for training and rewarding your dog.</p>
+                            <p><button onclick="window.location.href='products/dogbiscuits.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/catfood.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Meow Mix Cat Food</h1>
+                            <p class="price">$19.99</p>
+                            <p> A nutritious and flavorful cat food that is made with high-quality ingredients and provides your cat with a balanced and complete diet.</p>
+                            <p><button onclick="window.location.href='products/catfood.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/dogtoy.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Waggy Tail Dog Toy</h1>
+                            <p class="price">$19.99</p>
+                            <p>A durable and fun dog toy that is perfect for playing fetch and keeping your dog entertained.</p>
+                            <p><button onclick="window.location.href='products/dogtoy.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/catnip.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Feline Fun Catnip</h1>
+                            <p class="price">$19.99</p>
+                            <p> A natural and stimulating catnip that is perfect for providing your cat with entertainment and relaxation.</p>
+                            <p><button onclick="window.location.href='/petshop/products/catnip.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/petpads.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Potty Patrol Pet Training Pads</h1>
+                            <p class="price">$19.99</p>
+                            <p> A convenient and effective training pad that helps to train your pet to use the bathroom in a designated area.</p>
+                            <p><button onclick="window.location.href='products/petpads.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/dogdisc.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Fetching Frisbee Dog Disc</h1>
+                            <p class="price">$19.99</p>
+                            <p>A durable and fun frisbee that is perfect for playing fetch with your dog and promoting exercise.</p>
+                            <p><button onclick="window.location.href='products/dogdisc.php';">Details</button></p>
+                          </div>
+                          <div class="card">
+                            <img src="images/petkit.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <h1>Grooming Guru Pet Grooming Kit</h1>
+                            <p class="price">$19.99</p>
+                            <p>A comprehensive pet grooming kit that contains all the tools you need to groom your pet.</p>
+                            <p><button onclick="window.location.href='products/petkit.php';">Details</button></p>
+                          </div>
 
-                        <h3>Grooming Services:</h3>
-                        <!-- A well-groomed pet is a happy pet. Our grooming services are designed to keep your pet looking
-                        and feeling their best. We offer a range of grooming services, including bathing, nail trimming,
-                        haircuts, and more. Our experienced professionals use only the best grooming products to ensure
-                        that your pet receives the best care possible. -->
-                        Our grooming services are designed to pamper your pets and keep them looking and feeling their best. Our experienced and caring groomers provide a range of services, from baths and haircuts to nail trims and ear cleaning. We use gentle and pet-friendly products, ensuring a stress-free and enjoyable experience for your furry friends. Regular grooming not only keeps your pets clean and fresh but also promotes their overall health and well-being. Treat your pets to a spa day with our grooming services, and watch them strut their stuff with confidence and style.
-
-                        <h3>Pet Accessories:</h3>
-                        <!-- From collars to leashes to toys, we have everything your pet needs to stay comfortable, safe,
-                        and entertained. Our range of pet accessories includes high-quality products from trusted
-                        brands, designed to cater to the unique needs of different pets. We also offer customized
-                        accessories for a more personalized touch. -->
-                        Discover a world of pet accessories that cater to both style and functionality at our store. From trendy collars and cozy beds to interactive toys and travel carriers, our carefully curated selection of pet accessories is designed to enhance the lives of your furry companions. We offer a wide range of options to suit different tastes and meet the unique needs of various pets, ensuring that your four-legged family members are both comfortable and fashionable. Whether you're looking to make a fashion statement or provide your pets with the best tools for play and comfort, our pet accessories have got you covered. Shop with us today to add that extra touch of love and care to your pet's life.
-
-                        <h3>Veterinary Care:</h3>
-                        <!-- The health and well-being of your pet are our top priorities. That's why we offer veterinary
-                        care services to ensure that your pet receives the best possible care. Our team of experienced
-                        veterinarians provides a range of services, including wellness exams, vaccinations, surgeries,
-                        and more. We use state-of-the-art equipment and techniques to ensure that your pet receives the
-                        best possible care.
- -->
-                        At our establishment, veterinary care is not just a service; it's a commitment to the well-being of your pets. Our dedicated team of skilled and compassionate veterinarians is here to ensure that your furry, feathered, or scaly family members receive the highest quality healthcare. From routine check-ups to diagnostic procedures and emergency care, we provide a wide range of veterinary services to keep your pets in the best health possible. We prioritize preventive care to catch issues before they become major concerns, and we're here to answer your questions and offer guidance on all aspects of pet health. Trust us to be your partner in safeguarding the health and happiness of your beloved animals.
-
-                        <h3>Pet Adoption:</h3>
-                        Pet adoption is a heartwarming journey of love and companionship. At our facility, we believe in giving every pet the chance to find their forever home. We work with local rescues and shelters to bring you a diverse range of lovable animals in need of a second chance. Choosing to adopt a pet not only saves a life but also brings immeasurable joy to your own life. Our adoption process is thorough and compassionate, ensuring that pets find the perfect families and homes where they can flourish. Embrace the wonderful experience of pet adoption, and give a deserving animal a place in your heart and home today.
                     </div>
                 </main>
 
-                <!-- <nav id="sidebar">
+                <nav id="sidebar">
                     <div class="widget">
-                        <h3>Left heading</h3>
+                        <h3>Shortcut</h3>
                         <ul>
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
+                            <li><a href="5prod.php">Last 5 Products</a></li>
+                            <!-- <li><a href="#">Link 2</a></li>
                             <li><a href="#">Link 3</a></li>
                             <li><a href="#">Link 4</a></li>
-                            <li><a href="#">Link 5</a></li>
+                            <li><a href="#">Link 5</a></li> -->
                         </ul>
                     </div>
-                </nav> -->
+                </nav>
 
                 <div class="clr"></div>
             </div>

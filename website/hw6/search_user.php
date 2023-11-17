@@ -4,7 +4,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Petshop</title>
+    <title>PetKo</title>
     <link rel="stylesheet" href="index.css">
 
 
@@ -15,7 +15,7 @@
         <header id="header">
             <div id="header-inner">
                 <div id="logo">
-                    <h1><a href="#">Pet<span>Shop</span></a></h1>
+                    <h1><a href="#">Pet<span>Ko</span></a></h1>
                 </div>
                 <div id="top-nav">
                     <ul>
@@ -47,7 +47,7 @@
                         <?php
                             $servername = "db5012723904.hosting-data.io";
                             $username = "dbu1425408";
-                            $password = "cmpe272user";
+                            $password = "CMPE@272SJSU";
                             $dbname = "dbs10688165";
 
                             extract($_POST);

@@ -20,7 +20,7 @@
                     $cookie_value = implode(",", $page_urls);
                     
                     // Set the new cookie value
-                    setcookie($cookie_name, $cookie_value, $cookie_expiration, "/");
+                    setcookie($cookie_name, $cookie_value, $cookie_expiration, "/hw4");
                     ?>
 <!DOCTYPE html>
 <!-- Template by html.am -->
@@ -29,8 +29,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -44,12 +44,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/Petko/index.html">Home</a></li>
-                        <li><a href="/Petko/about.html">About</a></li>
-                        <li><a href="/Petko/products.html">Products/Services</a></li>
-                        <li><a href="/Petko/news.html">News</a></li>
-                        <li><a href="/Petko/contacts.php">Contact</a></li>
-                        <li><a href="/Petko/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -70,11 +70,11 @@
                     <div class="article">
                     
                         <div class="card">
-                            <img src="/images/catlitter.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/catlitter.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Purrfect Paws Cat Litter</h1>
                             <p class="price">$19.99</p>
                             <p>Purrfect Paws Cat Litter is a premium cat litter that is made of natural ingredients such as wood, paper, and corn. It is designed to provide superior odor control, clump quickly for easy scooping, and is 99% dust-free. This cat litter is perfect for pet owners who want a cat litter that is safe, natural, and easy to clean.</p>
-                            <p><button onclick="window.location.href='/products/catlitter.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/catlitter.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

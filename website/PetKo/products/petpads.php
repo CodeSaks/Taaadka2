@@ -30,8 +30,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -45,12 +45,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -71,11 +71,11 @@
                     <div class="article">
                     
                         <div class="card">
-                            <img src="/hw4/images/petpads.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/petpads.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Potty Patrol Pet Training Pads</h1>
                             <p class="price">$19.99</p>
                             <p>Potty Patrol Pet Training Pads are a convenient and effective training tool that helps to train your pet to use the bathroom in a designated area. These pads are made of high-quality materials and are designed to absorb urine and control odors. They are also leak-proof, making them easy to clean up and dispose of. These training pads are perfect for pet owners who want to train their pets to use the bathroom indoors, or for pets who have limited access to outdoor spaces. They are also great for puppies and senior pets who may have trouble holding their bladder.</p>
-                            <p><button onclick="window.location.href='/petshop/products/petpads.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/petpads.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

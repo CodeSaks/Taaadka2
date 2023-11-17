@@ -4,7 +4,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Petshop</title>
+    <title>PetKo</title>
     <link rel="stylesheet" href="index.css">
 
 
@@ -15,7 +15,7 @@
         <header id="header">
             <div id="header-inner">
                 <div id="logo">
-                    <h1><a href="#">Pet<span>Shop</span></a></h1>
+                    <h1><a href="#">Pet<span>Ko</span></a></h1>
                 </div>
                 <div id="top-nav">
                     <ul>
@@ -25,8 +25,7 @@
                         <li><a href="news.html">News</a></li>
                         <li><a href="contacts.php">Contact</a></li>
                         <li><a href="users.html">Users</a></li>
-                      <li><a href="curl.php">CURL</a></li>
-
+                        <li><a href="curl.php">CURL</a></li>
                         <li><a href="admin.html">Admin</a></li>
                     </ul>
                 </div>
@@ -49,18 +48,18 @@
                         <?php
                             $servername = "db5012723904.hosting-data.io";
                             $username = "dbu1425408";
-                            $password = "cmpe272user";
+                            $password = "CMPE@272SJSU";
                             $dbname = "dbs10688165";
                             extract($_POST);
 
                             // Create connection
-                            $conn = new mysqli($servername, $username, $password, $dbname);
+                            $conn = new mysqli($servername, $username, $password, $dbname, 3306);
 
                             // Check connection
                             
                             if ($conn->connect_error) {
                                 die("Connection failed: " . $conn->connect_error);
-                              }
+                            }
 
                             $sql = "INSERT INTO user VALUES ('$fname', '$lname','$email', '$haddress', '$hphone', '$cphone')";
                             

@@ -30,8 +30,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -45,12 +45,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -71,11 +71,11 @@
                     <div class="article">
                     
                         <div class="card">
-                            <img src="/images/petbed.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/petbed.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Cozy Comfy Pet Bed</h1>
                             <p class="price">$19.99</p>
                             <p>Cozy Comfy Pet Bed is a luxurious pet bed that is designed to provide your pet with the ultimate comfort and support. It is made of high-quality materials such as memory foam and plush fabric, and has a soft and cozy feel that your pet will love. This pet bed is perfect for pets who need a little extra support or who just want a soft and cozy place to sleep.</p>
-                            <p><button onclick="window.location.href='/products/petbed.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/petbed.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

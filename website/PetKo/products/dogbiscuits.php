@@ -29,8 +29,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -44,12 +44,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -70,11 +70,11 @@
                     <div class="article">
                     
                         <div class="card">
-                            <img src="/images/dogbuscuits.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/dogbuscuits.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Tasty Treats Dog Biscuits</h1>
                             <p class="price">$19.99</p>
                             <p> Tasty Treats Dog Biscuits are a nutritious and delicious dog treat that is made with natural ingredients such as chicken, beef, and vegetables. These dog biscuits are perfect for training and rewarding your dog, and they are free from artificial preservatives and flavors. They are also crunchy and flavorful, making them a tasty and healthy treat for your dog.</p>
-                            <p><button onclick="window.location.href='/products/dogbiscuits.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/dogbiscuits.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

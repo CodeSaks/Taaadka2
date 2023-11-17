@@ -30,8 +30,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -45,12 +45,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -71,11 +71,11 @@
                     <div class="article">
                     
                         <div class="card">
-                            <img src="/images/petkit.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/petkit.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Grooming Guru Pet Grooming Kit</h1>
                             <p class="price">$19.99</p>
                             <p>Grooming Guru Pet Grooming Kit is a comprehensive pet grooming kit that contains all the tools you need to groom your pet. It includes a brush, comb, nail clippers, and other essential grooming tools that are made of high-quality materials and are designed to provide your pet with a comfortable and stress-free grooming experience. This pet grooming kit is perfect for pet owners who want to keep their pets looking and feeling their best.</p>
-                            <p><button onclick="window.location.href='/products/petkit.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/petkit.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

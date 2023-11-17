@@ -20,7 +20,7 @@
                     $cookie_value = implode(",", $page_urls);
                     
                     // Set the new cookie value
-                    setcookie($cookie_name, $cookie_value, $cookie_expiration, "/hw4");
+                    setcookie($cookie_name, $cookie_value, $cookie_expiration, "../");
                     ?>
 <!DOCTYPE html>
 <!-- Template by html.am -->
@@ -29,8 +29,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -44,12 +44,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -70,11 +70,11 @@
                     <div class="article">
                     
                         <div class="card">
-                            <img src="/images/catnip.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/catnip.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Feline Fun Catnip</h1>
                             <p class="price">$19.99</p>
                             <p>Feline Fun Catnip is a natural and stimulating catnip that is perfect for providing your cat with entertainment and relaxation. It is made of high-quality and organic catnip, and is safe and non-toxic for your cat. This catnip can be used to stimulate your cat's senses, promote playfulness, and help your cat to relax and unwind.</p>
-                            <p><button onclick="window.location.href='/products/catnip.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/catnip.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

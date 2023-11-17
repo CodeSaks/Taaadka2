@@ -30,8 +30,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -45,12 +45,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -71,11 +71,11 @@
                     <div class="article">
                    
                         <div class="card">
-                            <img src="/images/dogtoy.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/dogtoy.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Waggy Tail Dog Toy</h1>
                             <p class="price">$19.99</p>
                             <p>Waggy Tail Dog Toy is a durable and fun dog toy that is designed to provide your dog with hours of entertainment. It is made of high-quality materials such as rubber and nylon, and is perfect for playing fetch, tug-of-war, and other fun games with your dog. This dog toy is also great for promoting exercise and keeping your dog active.</p>
-                            <p><button onclick="window.location.href='/products/dogtoy.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/dogtoy.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

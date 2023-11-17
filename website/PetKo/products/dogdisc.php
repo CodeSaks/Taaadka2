@@ -30,8 +30,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -45,12 +45,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -71,11 +71,11 @@
                     <div class="article">
                     
                         <div class="card">
-                            <img src="/images/dogdisc.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/dogdisc.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Fetching Frisbee Dog Disc</h1>
                             <p class="price">$19.99</p>
                             <p>Fetching Frisbee Dog Disc is a durable and fun frisbee that is designed to provide your dog with hours of entertainment and exercise. It is made of high-quality materials such as rubber and nylon, and is perfect for playing fetch and other fun games with your dog. This frisbee is also great for promoting bonding and strengthening the relationship between you and your dog.</p>
-                            <p><button onclick="window.location.href='/products/dogdisc.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/dogdisc.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>

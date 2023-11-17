@@ -30,8 +30,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>PetKo</title>
-    <link rel="stylesheet" href="/hw4/index.css">
-    <link rel="stylesheet" href="/hw4/products.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../products.css">
 
 
 </head>
@@ -45,12 +45,12 @@
                 </div>
                 <div id="top-nav">
                     <ul>
-                        <li><a href="/PetKo/index.html">Home</a></li>
-                        <li><a href="/PetKo/about.html">About</a></li>
-                        <li><a href="/PetKo/products.html">Products/Services</a></li>
-                        <li><a href="/PetKo/news.html">News</a></li>
-                        <li><a href="/PetKo/contacts.php">Contact</a></li>
-                        <li><a href="/PetKo/admin.html">Admin</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../products.html">Products/Services</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../contacts.php">Contact</a></li>
+                        <li><a href="../admin.html">Admin</a></li>
 
                     </ul>
                 </div>
@@ -71,11 +71,11 @@
                     <div class="article">
                    
                         <div class="card">
-                            <img src="/images/dogshampoo.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
+                            <img src="../images/dogshampoo.jpg" alt="Denim Jeans" style="max-height:450px; max-width:450px;">
                             <h1>Woofy Wash Dog Shampoo</h1>
                             <p class="price">$19.99</p>
                             <p>Woofy Wash Dog Shampoo is a specially formulated dog shampoo that is gentle on your dog's skin and coat. It contains natural ingredients such as aloe vera and oatmeal that help to soothe and moisturize your dog's skin, leaving it soft and shiny. This dog shampoo also has a fresh scent that will leave your dog smelling great.</p>
-                            <p><button onclick="window.location.href='/products/dogshampoo.html';">Add to Cart</button></p>
+                            <p><button onclick="window.location.href='/PetKo/products/dogshampoo.html';">Add to Cart</button></p>
                           </div>
                     </div>
                 </main>
