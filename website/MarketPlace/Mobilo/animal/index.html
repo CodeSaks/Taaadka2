@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Dog Drawing</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="dogCanvas" width="400" height="300"></canvas>
+    <script>
+        const canvas = document.getElementById('dogCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Sky
+        ctx.fillStyle = '#87CEEB';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Ground
+        ctx.fillStyle = '#8B4513';
+        ctx.fillRect(0, 200, canvas.width, canvas.height);
+
+        // Dog Body
+        ctx.fillStyle = '#D2B48C';
+        ctx.beginPath();
+        ctx.arc(200, 180, 40, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Dog Head
+        ctx.beginPath();
+        ctx.arc(240, 180, 30, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Dog Ears
+        ctx.fillStyle = '#8B4513';
+        ctx.beginPath();
+        ctx.moveTo(220, 160);
+        ctx.lineTo(230, 140);
+        ctx.lineTo(240, 160);
+        ctx.closePath();
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(250, 160);
+        ctx.lineTo(260, 140);
+        ctx.lineTo(270, 160);
+        ctx.closePath();
+        ctx.fill();
+
+        // Dog Legs
+        ctx.fillRect(180, 210, 10, 40);
+        ctx.fillRect(220, 210, 10, 40);
+
+        // Dog Tail
+        ctx.fillStyle = '#D2B48C';
+        ctx.beginPath();
+        ctx.moveTo(160, 180);
+        ctx.lineTo(140, 160);
+        ctx.lineTo(150, 170);
+        ctx.closePath();
+        ctx.fill();
+    </script>
+</body>
+</html>
