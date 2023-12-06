@@ -16,7 +16,7 @@
         <header id="header">
             <div id="header-inner">
                 <div id="logo">
-                    <h1><a href="#">Pet<span>Ko</span></a></h1>
+                    <h1><a href="#">Market<span>Place</span></a></h1>
                 </div>
                 <div id="top-nav">
                     <ul>
